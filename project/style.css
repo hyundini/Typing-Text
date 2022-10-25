@@ -31,12 +31,12 @@ body{
   font-size: 1.5rem;
 }
 
-#dynamic{
+.dynamic{
   position: relative;
   display: inline-block;
 }
 
-#dynamic::after{
+.dynamic::after{
   content:"";
   display: block;
   position: absolute;
@@ -47,6 +47,6 @@ body{
   background-color: white;
 }
 
-#dynamic.active::after{
+.dynamic.active::after{
   display: none;
 }
